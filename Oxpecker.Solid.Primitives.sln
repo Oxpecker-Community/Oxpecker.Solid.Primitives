@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Oxpecker.Solid.Primitives", "Oxpecker.Solid.Primitives\Oxpecker.Solid.Primitives.fsproj", "{B905C54C-BD15-426E-A09C-E10441E00521}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IDE", "IDE", "{5769BF7A-B8B9-4778-A752-A5A91A8785D4}"
+				ProjectSection(SolutionItems) = preProject
+																				.fantomasignore = .fantomasignore
+																				.gitignore = .gitignore
+																				.editorconfig = .editorconfig
+				EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitHub", "GitHub", "{1BEA69B1-1C3E-4888-B49C-94F63D52F1D5}"
+																ProjectSection(SolutionItems) = preProject
+																				README.md = README.md
+																				LICENSE = LICENSE
+																EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SDK", "SDK", "{14336796-0ABF-4B2E-82FB-A714F87131F3}"
+				ProjectSection(SolutionItems) = preProject
+								global.json = global.json
+				EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{B628EFFF-7EAB-4DAD-8159-EF4F8BB106F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AF19A784-965A-4505-81FB-3F4264C22A88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B905C54C-BD15-426E-A09C-E10441E00521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B905C54C-BD15-426E-A09C-E10441E00521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B905C54C-BD15-426E-A09C-E10441E00521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B905C54C-BD15-426E-A09C-E10441E00521}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B905C54C-BD15-426E-A09C-E10441E00521} = {B628EFFF-7EAB-4DAD-8159-EF4F8BB106F0}
+	EndGlobalSection
+EndGlobal

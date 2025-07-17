@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <FablePackageType>library</FablePackageType>
+        <TargetFramework>net9.0</TargetFramework>
+        <PackageId>Oxpecker.Solid.Primitives</PackageId>
+        <Title>Oxpecker.Solid.Primitives</Title>
+        <Company>F# Community</Company>
+        <Description>Bindings for Solid-js primitives</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryUrl>https://github.com/Oxpecker-Community/Oxpecker.Solid.Primitives</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>Partas;Oxpecker;F#;FSharp;Fable;fable-javascript;Web;Framework;Solid;Solidjs;Bindings;Primitives</PackageTags>
+        <Authors>Oxpecker Community</Authors>
+        <Copyright>Copyright (c) Oxpecker Community 2025</Copyright>
+        <Version>0.1.0</Version>
+        <PackageVersion>0.1.0</PackageVersion>
+        <PackageReleaseNotes>Init</PackageReleaseNotes>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Program.fs"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Fable.Browser.MediaStream" Version="3.4.0" />
+      <PackageReference Include="Oxpecker.Solid" Version="0.8.1" />
+        <PackageReference Include="Fable.Package.SDK" Version="1.3.1">
+            <IncludeAssets>runtime; build; native; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+    </ItemGroup>
+
+</Project>
+
+
